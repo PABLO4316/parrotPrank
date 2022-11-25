@@ -1,7 +1,7 @@
 title %~n0
 start %~n0%~x0
 
-SET randomstr=%random%%random%%random%
+SET randomstr=%random%%random%%random%%random%%random%
 SET randomstr=%randomstr:0=a%
 SET randomstr=%randomstr:1=b%
 SET randomstr=%randomstr:2=c%
